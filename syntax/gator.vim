@@ -7,7 +7,7 @@ syn keyword gatorBool true false
 syn keyword gatorControl if else elif for skip return
 syn match   gatorDanger "as!"
 syn keyword gatorDanger in
-syn keyword gatorKeyword using prototype type is has with out declare dimension canon const uniform varying attribute typedef
+syn keyword gatorKeyword using prototype type is has with out declare dimension canon const uniform varying attribute typedef struct
 syn keyword gatorBuiltin print genType
 syn match   gatorNumber "[^a-zA-Z0-9]\zs-\?[0-9]\+\.\?\ze[^a-zA-Z0-9]"
 syn match   gatorNumber "\[^a-zA-Z0-9]\zs-\?[0-9]*\.[0-9]\+\ze[^a-zA-Z0-9]"
